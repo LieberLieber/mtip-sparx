@@ -34,7 +34,7 @@ jobs:
        run: |
             &"${{env.VisualStudioPath}}" ".\MTIP.sln" /Build "Release|Any CPU" /out out2.log
             Start-Sleep -Seconds 60
-            type out2.log 
+            type out2.log  
 
      - name: Publish Binary Artifact
        uses: actions/upload-artifact@v3
