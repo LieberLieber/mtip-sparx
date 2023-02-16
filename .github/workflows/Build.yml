@@ -6,7 +6,7 @@ name: Build MTIP.sln
 on: [push]
 env:
   VisualStudioPath: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
-  DisableOutOfProcPath: C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\VSI\DisableOutOfProcBuild\
+  DisableOutOfProcPath: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\VSI\DisableOutOfProcBuild\
 jobs:
   build:
     runs-on: [self-hosted, pcs]
